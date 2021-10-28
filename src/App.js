@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="app">
 
-      {token ? (<h1>Player Page</h1>) : (<Login />)}
+      {token ? <Player /> : (<Login />)}
     </div>
   );
 }
