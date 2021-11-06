@@ -11,9 +11,9 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer__left">
-                <img src="" alt="" className="footer__albumLogo" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC-CRaFPlmkC234PYij3tfP0J2xqgQ6HfUuQ&usqp=CAU" alt="" className="footer__albumLogo" />
                 <div className="footer_songInfo">
-                    <h4>Yeah</h4>
+                    <h4>Yeah!</h4>
                     <p>Usher</p>
                 </div>
             </div>

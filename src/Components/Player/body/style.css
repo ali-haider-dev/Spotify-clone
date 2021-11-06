@@ -3,5 +3,48 @@
   background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
   height: 100vh;
   padding: 30px;
+  overflow-y: overlay;
   color: white;
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+.body__info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+.body__info > img {
+  height: 17vw;
+  object-fit: contain;
+  margin: 0 20px;
+  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.5);
+}
+.body__infoText {
+  flex: 1;
+}
+.body__icons {
+  display: flex;
+  align-items: center;
+}
+.body__shuffle {
+  font-size: 80px !important;
+  margin: 20px 0 20px 50px;
+}
+.body__shuffle:hover {
+  transition: transform 0.1s ease-in;
+  transform: scale(1.08);
+}
+.body__icons > MuiSvgIcon-root {
+  margin-right: 20px;
+}
+.body__songs {
+  margin: 20px -30px;
+}
+.body__infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.body__infoText > p {
+  font-size: 14px;
 }

@@ -13,9 +13,10 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   max-width: 300px;
 }
+
 .footer__albumLogo {
   height: 60px;
   width: 60px;
@@ -31,6 +32,11 @@
   justify-content: space-between;
   max-width: 300px;
 }
+.footer__icon:hover,
+.footer__green:hover {
+  transition: transform 0.2s ease-in;
+  transform: scale(1.2) !important;
+}
 .footer__right {
   flex: 0.3;
   padding: 0 50px;
@@ -39,6 +45,9 @@
   align-items: center;
   justify-content: space-between;
   max-width: 300px;
+}
+.footer__right * .MuiSlider-root {
+  color: #13da58;
 }
 .footer__green {
   color: #1ed15e;
